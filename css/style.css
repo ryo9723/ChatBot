@@ -1,13 +1,37 @@
 html {
     height: 100%;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+#wrap {
+    background: url(/images/bg.png);
+    background-repeat: repeat;
+    min-height: calc(100vh - 20px);
+}
+
 .header {
     height: 100px;
+    position: relative;
 }
+
+.logo-img {
+    width: 15%;
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+.info-img {
+    width: 8%;
+    position: absolute;
+    top: 90%;
+    left: 2%;
+}
+
 main {
     width: 100%;
     margin: auto;
